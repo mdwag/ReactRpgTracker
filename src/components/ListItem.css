@@ -1,0 +1,39 @@
+.list-item{
+    border: black solid;
+    width: 100%;
+    background-color: #656666;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-turn{
+    background-color: firebrick;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3%;
+    color: white;
+    position: relative;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exit-div{
+    position: relative;
+    margin-left: 5%;
+}
+#window-icon:hover{
+    color: goldenrod;
+}
+.turn-class{
+    background-color: red;
+}
+.edit-class:hover{
+    color: white;
+}
